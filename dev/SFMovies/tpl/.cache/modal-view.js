@@ -1,0 +1,2 @@
+/*TMODJS:{"version":6,"md5":"00aa94a6c734bbedfe0a4905a7014c93"}*/
+template('modal-view','<div class="my-panel"> <div class="movie-panel-left"> <img src="" class="showImage"> </div> <div class="movies-panel-right"> <% var i =0;for(;i<data.length ;i++){ %> <p><%=data[i]%></p> <%}%> </div> </div> ');
